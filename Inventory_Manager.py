@@ -3,7 +3,7 @@ import mysql.connector
 connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="tboult@6666"
+    password="pass"
 )
 
 cursor = connection.cursor()
@@ -14,7 +14,7 @@ cursor.execute("USE school_project")
 connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="tboult@6666",
+    password="pass",
     database="school_project"
 )
 
@@ -51,7 +51,7 @@ def save_inventory():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="tboult@6666",
+        password="pass",
         database="school_project"
     )
 
